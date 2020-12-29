@@ -1,0 +1,42 @@
+.game-wrapper {
+  display: flex;
+}
+
+
+.detail-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 20rem;
+  background: rgb(40, 40, 40);
+}
+
+.sector-label {
+  width: 100%;
+  padding-left: 3rem;
+  font-size: 1.2rem;
+  background: rgb(80, 80, 80);
+  color: rgb(230, 230, 230);
+}
+
+.inventory, .combat-log {
+  list-style-type: none;
+  overflow-y: scroll;
+  scrollbar-color: dark;
+  height: 20rem;
+  width: 100%;
+  padding-left: 1rem;
+  background: rgb(80, 80, 80);
+  color: rgb(230, 230, 230);
+}
+
+.inventory li:nth-child(2n+2) {
+  background: rgb(70,70, 70);
+}
+
+.inventory {
+  height: 14rem;
+}
+
+.combat-log {
+  height: 20rem;
+}

@@ -1,0 +1,8 @@
+- gold as own stat
+- leveled player
+- items equippable
+- inventory control
+- use potion
+- leveled monsters
+- leveled items
+- chase script
